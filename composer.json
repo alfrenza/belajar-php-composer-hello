@@ -1,0 +1,17 @@
+{
+    "name": "programmerzamannow/belajar-php-composer",
+    "description": "Belajar PHP Composer",
+    "type": "project",
+    "authors": [{
+        "name": "Alfrenza Burhanudin Rabbanie",
+        "email": "alfrenzaburhannudin@gmail.com"
+    }],
+    "autoload": {
+        "psr-4": {
+            "ProgrammerZamanNow\\": "src/"
+        }
+    },
+    "require": {
+        "monolog/monolog": "3.3.1"
+    }
+}
